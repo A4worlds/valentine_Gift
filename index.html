@@ -339,7 +339,7 @@
     window.addEventListener('resize', () => {
       const noBtnRect = noBtn.getBoundingClientRect();
       const cardRect = card.getBoundingClientRect();
-      const maxDistance = 5; // 4cm
+      const maxDistance = 3; // 4cm
       
       // Check if button is too far from card
       const tooFarLeft = noBtnRect.right < cardRect.left - maxDistance;
